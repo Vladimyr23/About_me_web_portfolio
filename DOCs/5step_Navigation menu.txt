@@ -1,0 +1,13 @@
+NAVIGATION MENU
+-With the "Live Server" extention for VS Code we can open html in a browser with the right click.(Installed)
+-The navigation Bar code copied from the Bootstrap web (Documentation/Components/Navbar/Nav) inside of the body/header.header_area/div.main_menu.
+-The "Pricing" is changed on "About Us"
+-The "Navbar" link word in 'a' tag changed on img (./img/logo.png), alt changed to "logo"
+-Copy list item "About Us" and rename it as "Services"
+-Delete items "Features" and "Disabled"
+-Copy "Services" with 'Alt-Shift-Down' and rename it as "Portfolio", the same way crete "Pages","Blog" and "Contact".
+-For aligning the navigation links on the right side of the screen inside 
+	the div.collapse navbar-collapse 
+	before the links unnum list add the div.mr-auto (part of the bootstrap)
+-From the line '<nav ..' bg-light can be removed to make the navigation bar transparent
+Navigation menu styling

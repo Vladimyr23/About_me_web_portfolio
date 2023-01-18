@@ -1,0 +1,9 @@
+in css folder create fonts.css file  like:
+/* @font-face */
+
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
+
+Here 'Roboto' is a font downloaded from https://fonts.google.com/

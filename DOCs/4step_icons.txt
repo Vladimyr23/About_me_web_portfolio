@@ -1,0 +1,14 @@
+Goto 'https://fontawesome.com/start' or press Start from homepage
+-Download the latest icons package file like: fontawesome-free-5.12.1-web.zip
+-from extracted archive css folder copy all.min.css file into the project css folder
+-from extracted archive webfonts folder copy everything(all files) into the project new folder 'icons'
+
+-In index.html/head add connection to the awesome icons like:
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+-Change all.min.css file to provide the correct path to the icon files like:
+	in VS code press Ctrl-F and replace 'webfonts' with 'icons'
+	or otherwise could put the webfonts folder into the project folder as it is
+ 
+ 

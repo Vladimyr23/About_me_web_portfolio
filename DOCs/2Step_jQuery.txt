@@ -1,0 +1,4 @@
+Go to jQuery Download, 
+click on the link like - "Download the compressed, production jQuery 3.4.1"
+copy and paste content into the project file like - ./js/jQuery3.4.1.js
+Save and close the 'jQuery3.4.1.js' file 

@@ -1,0 +1,18 @@
+Video tutorial link is: https://www.youtube.com/watch?v=dgKSqz3it50&list=WL&index=14&t=332s
+1 Step Bootstrap:
+Download Bootstrap package from https://getbootstrap.com
+From archive css folder copy the bootstrap.min.css file into the project css folder
+From archive js folder copy the bootstrap.min.js file into the project js folder
+In index.html file <head>
+	<!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+In <body> bottom:
+   step2: <!-- jQuerry file -->
+    <script src="./js/jQuery3.4.1.js"></script>
+
+    <!-- Bootstrap JS file -->
+    <script src="./js/bootstrap.min.js"></script>
