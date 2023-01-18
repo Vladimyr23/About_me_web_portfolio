@@ -1,0 +1,167 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* CSS variables */
+@import url(./partials/_variables.css);
+
+/* Global styling */
+@import url(./partials/_global.css);
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 1rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 555 15px/2px var(--roboto);
+    
+    text-transform: uppercase;
+   
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* End Navigation */
+
+
+/* Start Banner Area */
+
+.site-main .site-banner .site-title{
+    font-family: var(--rubik);
+    /* background: url(../img/banner/background_banner.png) no-repeat left center; */
+}
+.site-main .site-banner .site-title img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;    
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 555;
+}
+/* .site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 23vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(7px);
+} */
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 2rem;
+}
+.site-main .site-banner .banner-image>img{    
+    padding: 20% 3rem;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    height: auto;      
+}
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 10% 3rem;
+}
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--rubik);
+    letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+/* Start experience Area */
+
+.site-main .experience-main-area{
+    padding: 1rem 2rem;
+    margin-bottom: 4rem;
+}
+.site-main .experience-main-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.site-main .experience-main-area .first-row .col-lg-4 > .single-language{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.site-main .experience-main-area .first-row .col-lg-4 > .single-language:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.site-main .experience-main-area .first-row .col-lg-4 > .single-language:hover > img{
+    filter: drop-shadow(0.3);
+}
+.site-main .experience-main-area .experience-area{
+    padding-left: 1rem;
+}
+.site-main .experience-main-area .experience-area span{
+    display: block;
+}
+.site-main .experience-main-area .experience-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+.site-main .experience-main-area .experience-area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #0e7f7f0a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.site-main .experience-main-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+.site-main .experience-main-area .experience-area .years-area h2>span{
+    font: normal 600 22px/30px var(--roboto);
+}
+.site-main .experience-main-area .experience-area .email-area{
+    padding-left: 10rem;
+}
+
+
+/* End experience Area */
